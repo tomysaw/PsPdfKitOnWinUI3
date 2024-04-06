@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PsPdfKitOnWinUI3.FakeRequestFilter (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PsPdfKitOnWinUI3.FakeRequestFilter (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

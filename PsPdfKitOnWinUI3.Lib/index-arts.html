@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+<div id="pspdfkit" style="width: 100%; height: 100vh;"></div>
+
+<script src="http://artifacts.com/pspdfkit.js"></script>
+
+<script>
+	PSPDFKit.load({
+		container: "#pspdfkit",
+		document: "document.pdf",
+		disableWebAssemblyStreaming: true
+	})
+		.then(function(instance) {
+			console.log("PSPDFKit loaded", instance);
+		})
+		.catch(function(error) {
+			console.error(error.message);
+		});
+</script>
+</body>
+</html>

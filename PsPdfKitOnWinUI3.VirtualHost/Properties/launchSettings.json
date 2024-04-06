@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PsPdfKitOnWinUI3.VirtualHost (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "PsPdfKitOnWinUI3.VirtualHost (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
